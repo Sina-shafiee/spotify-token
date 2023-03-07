@@ -2,6 +2,8 @@ const express = require('express');
 const cors = require('cors');
 require('dotenv').config();
 
+const PORT = process.env.PORT || 5000;
+
 const app = express();
 
 app.use(cors());
@@ -27,6 +29,6 @@ app.get('/getToken', async function (req, res) {
   }
 });
 
-app.listen(4000, () => {
-  console.log('server is running');
+app.listen(PORT, () => {
+  console.log(`server is running on port: ${PORT}`);
 });
