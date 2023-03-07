@@ -4,7 +4,7 @@ require('dotenv').config();
 
 const PORT = process.env.PORT || 5000;
 const allowedOrigins = [
-  'http://spotify-v2-self.vercel.app/',
+  'http://spotify-v2-self.vercel.app',
   'http://localhost:3000'
 ];
 
