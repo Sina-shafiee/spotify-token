@@ -6,7 +6,7 @@ const PORT = process.env.PORT || 5000;
 const allowedOrigins = [
   'https://spotify-v2-self.vercel.app',
   'http://localhost:3000',
-  'https://spotify.sinashafiee.ink/'
+  'https://spotify.sinashafiee.ink'
 ];
 
 const app = express();
